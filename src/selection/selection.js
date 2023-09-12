@@ -12,7 +12,7 @@ const SelectionBtn = () => {
         '5: Learn Web Development'
     ])
 
-    const backHandler = () => {
+    const nextHandler = () => {
         // console.log(' back handler')
 
         if(counter < 5){
@@ -20,7 +20,7 @@ const SelectionBtn = () => {
         }
     }
 
-    const nextHandler = () => {
+    const backHandler = () => {
         // console.log('next handler')
 
         if(counter > 0){
