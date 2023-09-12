@@ -30,7 +30,7 @@ const SelectionBtn = () => {
 
     return (
         <>
-            <div style={{ display: 'flex', justifyContent: 'space-around', marginTop: '100px' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-around', marginTop: '80px' }}>
 
 
                 {Array.from([0, 1, 2, 3, 4, 5], x => (
