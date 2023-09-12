@@ -1,3 +1,11 @@
+/* :root {
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
+
+} */
+
 .App {
   text-align: center;
 }
@@ -26,6 +34,31 @@
 
 .App-link {
   color: #61dafb;
+}
+body {
+  background-color: #1f242d;
+  /* background-color: black; */
+}
+.btn {
+  margin-top: 250px;
+  width: 120px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+.btn:hover {
+  margin-top: 250px;
+  width: 120px;
+  height: 30px;
+  border-radius: 10px;
+  border: 3px solid red;
+  background-color:white;
+  color: red;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 @keyframes App-logo-spin {
