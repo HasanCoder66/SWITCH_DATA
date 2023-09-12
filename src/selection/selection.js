@@ -30,7 +30,7 @@ const SelectionBtn = () => {
 
     return (
         <>
-            <div style={{ display: 'flex', justifyContent: 'space-around', marginTop: '80px' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-around', marginTop: '100px' }}>
 
 
                 {Array.from([0, 1, 2, 3, 4, 5], x => (
@@ -45,7 +45,7 @@ const SelectionBtn = () => {
 
 
             </div>
-                        <p style={{textAlign:'center' , marginTop:'100px', padding:'50px', border:'1px solid red', color:'white'}}>
+                        <p style={{textAlign:'center' , marginTop:'80px', padding:'50px', border:'1px solid red', color:'white'}}>
                             {message[counter -1]}
                         </p>
             <div style={{ display: 'flex', justifyContent: 'space-around', color: 'grey', }}>
