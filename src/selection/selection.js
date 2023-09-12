@@ -49,7 +49,7 @@ const SelectionBtn = () => {
                             {message[counter -1]}
                         </p>
             <div style={{ display: 'flex', justifyContent: 'space-around', color: 'grey', }}>
-                {Array.from(['back', 'next'], x => (
+                {Array.from([ 'next', 'back'], x => (
                     <button className="btn"  onClick={x == 'back' ? backHandler : nextHandler}>
                         {x}
                     </button>
